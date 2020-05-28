@@ -9,7 +9,12 @@ datasources_vis.py : Python script based on "Attack Python client" notebooks.
 * Attackcti library
 
 # Usage
+You have three arguments:
+* grouping : grouping techniques with data sources by data source.
+* count : number of data sources per techniques.
+* subset : subdata sources.
+
 ```
-python3 datasources_vis.py
+python3 datasources_vis.py --visualization (or -v) (grouping,count or subset)
 ```
 ![Result](visualization.png)
